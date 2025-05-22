@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 const Skills = () => (
   <section
     id="skills"
-    className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[15vw] font-sans bg-skills-gradient clip-path-custom"
+    className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[12vw] font-sans bg-skills-gradient clip-path-custom"
   >
     {/* Section Title */}
     <div className="text-center mb-8">
@@ -39,7 +39,7 @@ const Skills = () => (
             transitionSpeed={1000}
             gyroscope={true}
           >
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 w-full">
               {category.skills.map((skill) => (
                 <div
                   key={skill.name}

@@ -48,7 +48,7 @@ import githubdetLogo from './assets/work_logo/E-ComWeb.png';
 import csprepLogo from './assets/work_logo/weather.png.png';
 import movierecLogo from './assets/work_logo/tic-tac-toe.png.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
+import npmLogo from './assets/work_logo/documentManager.png';
 import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
@@ -210,6 +210,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Document Manager",
+      description:
+        "The Document Manager Frontend is a responsive and user-friendly web application interface that enables users to upload, view, organize, and manage digital documents efficiently. Designed with usability and performance in mind, this frontend serves as the gateway for interacting with a backend document storage and retrieval system.",
+      image: npmLogo,
+      tags: ["React JS", "Tailwind CSS", "JavaScript"],
+      github: "https://github.com/Tech-Lksh/Document-Manager",
+      webapp: "https://document-manager-sooty.vercel.app/",
+    },
+    {
+      id: 1,
       title: "E-Commerce Website",
       description:
         "Designed and developed a E-commerce website with a user-friendly interface, and seamless product management. Ensured a responsive and mobile-friendly design for a better user experience.  Implemented key features such as product, shopping cart, about, contact, footer section, social media links and customer authentication.",
@@ -219,7 +229,7 @@ export const SkillsInfo = [
       webapp: "https://tech-lksh.github.io/Padhiii-s-E-commers-Website/",
     },
     {
-      id: 1,
+      id: 2,
       title: "Weather App",
       description:
         "Designed and developed a Weather App with a user-friendly interface, and seamless product management.Implemented key features such as customer authentication from real-time weather updates. Long-term technologies such as (tech stack of mention, e.g., HTML, CSS, JavaScript, API) to build a scalable and efficient platform showing current temperature, humidity, wind speed and visibility. Feels-like temperature and weather conditions (sunny, rainy, snowy, etc.)",
@@ -229,7 +239,7 @@ export const SkillsInfo = [
       webapp: "https://tech-lksh.github.io/Weather-App/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Tic-Tac-Toe-Game",
       description:
         "A simple 3x3 board where players place their marks. Usually ”X” and ”O” take turns marking spaces. A player wins by getting three marks on a row, column, or diagonal. If all spaces are filled without a winner, the game ends in a tie. 3x3 Grid, Two Players, Win Conditions, Draw Condition.",
