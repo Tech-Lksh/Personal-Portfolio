@@ -40,6 +40,7 @@ import csprepLogo from './assets/work_logo/weather.png.png';
 import movierecLogo from './assets/work_logo/tic-tac-toe.png.png';
 import npmLogo from './assets/work_logo/documentManager.png';
 import blog from './assets/work_logo/Blog.png'
+import passwordGen from './assets/work_logo/PasswordGenerator.png'
 
 
 export const SkillsInfo = [
@@ -197,7 +198,7 @@ export const SkillsInfo = [
       webapp: "https://document-manager-sooty.vercel.app/",
     },
     {
-      id: 4,
+      id: 1,
       title: "Modern-Blog-Website",
       description:
         "A modern blog website is a dynamic, interactive platform that goes far beyond traditional blogging to create engaging digital experiences. Today's blogs serve as content hubs, community centers, and personal/brand storytelling platforms.",
@@ -207,7 +208,17 @@ export const SkillsInfo = [
       webapp: "https://tech-lksh.github.io/Modern-Blog-Website/",
     },
     {
-      id: 1,
+      id: 2,
+      title: "Password Generator",
+      description:
+        "The Password Generator App is a secure and user-friendly tool built with React Hooks and TailwindCSS. It allows users to generate strong and customizable passwords instantly by adjusting the length (6–100 characters) and choosing whether to include numbers and special characters. The app provides a simple and clean interface with real-time password updates and a one-click copy-to-clipboard feature. Designed with modern React practices like useState, useEffect, useCallback, and useRef, this project showcases both functionality and performance along with a responsive, professional UI.",
+      image: passwordGen,
+      tags: ["React js"],
+      github: "https://github.com/Tech-Lksh/PassWord-Genrator-",
+      webapp: "https://pass-word-genrator.vercel.app/",
+    },
+    {
+      id: 3,
       title: "E-Commerce Website",
       description:
         "Designed and developed a E-commerce website with a user-friendly interface, and seamless product management. Ensured a responsive and mobile-friendly design for a better user experience.  Implemented key features such as product, shopping cart, about, contact, footer section, social media links and customer authentication.",
@@ -217,7 +228,7 @@ export const SkillsInfo = [
       webapp: "https://tech-lksh.github.io/Padhiii-s-E-commers-Website/",
     },
     {
-      id: 2,
+      id: 4,
       title: "Weather App",
       description:
         "Designed and developed a Weather App with a user-friendly interface, and seamless product management.Implemented key features such as customer authentication from real-time weather updates. Long-term technologies such as (tech stack of mention, e.g., HTML, CSS, JavaScript, API) to build a scalable and efficient platform showing current temperature, humidity, wind speed and visibility. Feels-like temperature and weather conditions (sunny, rainy, snowy, etc.)",
@@ -227,7 +238,7 @@ export const SkillsInfo = [
       webapp: "https://tech-lksh.github.io/Weather-App/",
     },
     {
-      id: 3,
+      id: 5,
       title: "Tic-Tac-Toe-Game",
       description:
         "A simple 3x3 board where players place their marks. Usually ”X” and ”O” take turns marking spaces. A player wins by getting three marks on a row, column, or diagonal. If all spaces are filled without a winner, the game ends in a tie. 3x3 Grid, Two Players, Win Conditions, Draw Condition.",
