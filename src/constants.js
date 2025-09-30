@@ -191,56 +191,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "Document Manager",
+      title: "Employee-Management-System",
       description:
-        "The Document Manager Frontend is a responsive and user-friendly web application interface that enables users to upload, view, organize, and manage digital documents efficiently. Designed with usability and performance in mind, this frontend serves as the gateway for interacting with a backend document storage and retrieval system.",
-      image: npmLogo,
-      tags: ["React JS", "Tailwind CSS", "JavaScript"],
-      github: "https://github.com/Tech-Lksh/Document-Manager",
-      webapp: "https://document-manager-sooty.vercel.app/",
+        "The Employee Management System is a web-based application designed to streamline the interaction between administrators and employees. It provides a simple and efficient way to manage employee data and assign, track, and complete tasks.",
+      image: employeemanagementsystm,
+      tags: ["React Js", "Tailwind CSS", "React-Router-DOM", "LocalStorage"],
+      github: "https://github.com/Tech-Lksh/Employee-Management-System",
+      webapp: "https://employee-management-system-bice-one.vercel.app/",
     },
     {
       id: 1,
-      title: "Modern-Blog-Website",
-      description:
-        "A modern blog website is a dynamic, interactive platform that goes far beyond traditional blogging to create engaging digital experiences. Today's blogs serve as content hubs, community centers, and personal/brand storytelling platforms.",
-      image: blog,
-      tags: ["Html", "JavaScript", "CSS"],
-      github: "https://github.com/Tech-Lksh/Modern-Blog-Website",
-      webapp: "https://tech-lksh.github.io/Modern-Blog-Website/",
-    },
-    {
-      id: 2,
-      title: "Password Generator",
-      description:
-        "The Password Generator App is a secure and user-friendly tool built with React Hooks and TailwindCSS. It allows users to generate strong and customizable passwords instantly by adjusting the length (6–100 characters) and choosing whether to include numbers and special characters. The app provides a simple and clean interface with real-time password updates and a one-click copy-to-clipboard feature. Designed with modern React practices like useState, useEffect, useCallback, and useRef, this project showcases both functionality and performance along with a responsive, professional UI.",
-      image: passwordGen,
-      tags: ["React js"],
-      github: "https://github.com/Tech-Lksh/PassWord-Genrator-",
-      webapp: "https://pass-word-genrator.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "E-Commerce Website",
-      description:
-        "Designed and developed a E-commerce website with a user-friendly interface, and seamless product management. Ensured a responsive and mobile-friendly design for a better user experience.  Implemented key features such as product, shopping cart, about, contact, footer section, social media links and customer authentication.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Tech-Lksh/Padhiii-s-E-commers-Website",
-      webapp: "https://tech-lksh.github.io/Padhiii-s-E-commers-Website/",
-    },
-    {
-      id: 4,
-      title: "Weather App",
-      description:
-        "Designed and developed a Weather App with a user-friendly interface, and seamless product management.Implemented key features such as customer authentication from real-time weather updates. Long-term technologies such as (tech stack of mention, e.g., HTML, CSS, JavaScript, API) to build a scalable and efficient platform showing current temperature, humidity, wind speed and visibility. Feels-like temperature and weather conditions (sunny, rainy, snowy, etc.)",
-      image: csprepLogo,
-      tags: ["HTML", "CSS", "JavaScript", "API"],
-      github: "https://github.com/Tech-Lksh/Weather-App",
-      webapp: "https://tech-lksh.github.io/Weather-App/",
-    },
-    {
-      id: 5,
       title: "Book-My-Show",
       description:
         "The BookMyShow Clone is a full-stack web application that replicates the core functionality of the popular online movie ticket booking platform – BookMyShow. This application allows users to browse movies, view details, select show timings, and book tickets in a seamless and interactive interface.",
@@ -250,13 +210,53 @@ export const SkillsInfo = [
       webapp: "https://book-my-show-project-tau.vercel.app/",
     },
     {
-      id: 5,
-      title: "Employee-Management-System",
+      id: 2,
+      title: "Document Manager",
       description:
-        "The Employee Management System is a web-based application designed to streamline the interaction between administrators and employees. It provides a simple and efficient way to manage employee data and assign, track, and complete tasks.",
-      image: employeemanagementsystm,
-      tags: ["React Js", "Tailwind CSS", "React-Router-DOM", "LocalStorage"],
-      github: "https://github.com/Tech-Lksh/Employee-Management-System",
-      webapp: "https://employee-management-system-bice-one.vercel.app/",
+        "The Document Manager Frontend is a responsive and user-friendly web application interface that enables users to upload, view, organize, and manage digital documents efficiently. Designed with usability and performance in mind, this frontend serves as the gateway for interacting with a backend document storage and retrieval system.",
+      image: npmLogo,
+      tags: ["React JS", "Tailwind CSS", "JavaScript"],
+      github: "https://github.com/Tech-Lksh/Document-Manager",
+      webapp: "https://document-manager-sooty.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "Modern-Blog-Website",
+      description:
+        "A modern blog website is a dynamic, interactive platform that goes far beyond traditional blogging to create engaging digital experiences. Today's blogs serve as content hubs, community centers, and personal/brand storytelling platforms.",
+      image: blog,
+      tags: ["Html", "JavaScript", "CSS"],
+      github: "https://github.com/Tech-Lksh/Modern-Blog-Website",
+      webapp: "https://tech-lksh.github.io/Modern-Blog-Website/",
+    },
+    {
+      id: 4,
+      title: "Password Generator",
+      description:
+        "The Password Generator App is a secure and user-friendly tool built with React Hooks and TailwindCSS. It allows users to generate strong and customizable passwords instantly by adjusting the length (6–100 characters) and choosing whether to include numbers and special characters. The app provides a simple and clean interface with real-time password updates and a one-click copy-to-clipboard feature. Designed with modern React practices like useState, useEffect, useCallback, and useRef, this project showcases both functionality and performance along with a responsive, professional UI.",
+      image: passwordGen,
+      tags: ["React js"],
+      github: "https://github.com/Tech-Lksh/PassWord-Genrator-",
+      webapp: "https://pass-word-genrator.vercel.app/",
+    },
+    {
+      id: 5,
+      title: "E-Commerce Website",
+      description:
+        "Designed and developed a E-commerce website with a user-friendly interface, and seamless product management. Ensured a responsive and mobile-friendly design for a better user experience.  Implemented key features such as product, shopping cart, about, contact, footer section, social media links and customer authentication.",
+      image: githubdetLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Tech-Lksh/Padhiii-s-E-commers-Website",
+      webapp: "https://tech-lksh.github.io/Padhiii-s-E-commers-Website/",
+    },
+    {
+      id: 6,
+      title: "Weather App",
+      description:
+        "Designed and developed a Weather App with a user-friendly interface, and seamless product management.Implemented key features such as customer authentication from real-time weather updates. Long-term technologies such as (tech stack of mention, e.g., HTML, CSS, JavaScript, API) to build a scalable and efficient platform showing current temperature, humidity, wind speed and visibility. Feels-like temperature and weather conditions (sunny, rainy, snowy, etc.)",
+      image: csprepLogo,
+      tags: ["HTML", "CSS", "JavaScript", "API"],
+      github: "https://github.com/Tech-Lksh/Weather-App",
+      webapp: "https://tech-lksh.github.io/Weather-App/",
     },
   ];  
