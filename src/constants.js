@@ -41,6 +41,7 @@ import movierecLogo from './assets/work_logo/tic-tac-toe.png.png';
 import npmLogo from './assets/work_logo/documentManager.png';
 import blog from './assets/work_logo/Blog.png'
 import passwordGen from './assets/work_logo/PasswordGenerator.png'
+import employeemanagementsystm from './assets/work_logo/{BA4A9ECB-F859-4593-9A4A-3266AAB61168}.png'
 
 
 export const SkillsInfo = [
@@ -252,7 +253,7 @@ export const SkillsInfo = [
       title: "Employee-Management-System",
       description:
         "The Employee Management System is a web-based application designed to streamline the interaction between administrators and employees. It provides a simple and efficient way to manage employee data and assign, track, and complete tasks.",
-      image: movierecLogo,
+      image: employeemanagementsystm,
       tags: ["React Js", "Tailwind CSS", "React-Router-DOM", "LocalStorage"],
       github: "https://github.com/Tech-Lksh/Employee-Management-System",
       webapp: "https://employee-management-system-bice-one.vercel.app/",
