@@ -42,6 +42,7 @@ import npmLogo from './assets/work_logo/documentManager.png';
 import blog from './assets/work_logo/Blog.png'
 import passwordGen from './assets/work_logo/PasswordGenerator.png'
 import employeemanagementsystm from './assets/work_logo/{BA4A9ECB-F859-4593-9A4A-3266AAB61168}.png'
+import bookMyShow from './assets/work_logo/{AD3DED1C-EE53-44AC-9954-EAF0085FB3CD}.png'
 
 
 export const SkillsInfo = [
@@ -243,7 +244,7 @@ export const SkillsInfo = [
       title: "Book-My-Show",
       description:
         "The BookMyShow Clone is a full-stack web application that replicates the core functionality of the popular online movie ticket booking platform – BookMyShow. This application allows users to browse movies, view details, select show timings, and book tickets in a seamless and interactive interface.",
-      image: movierecLogo,
+      image: bookMyShow,
       tags: ["React Js", "CSS", "Node js", "Express Js", "MongoDB"],
       github: "https://github.com/Tech-Lksh/Book-My-Show-Project",
       webapp: "https://book-my-show-project-tau.vercel.app/",
