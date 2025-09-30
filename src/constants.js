@@ -239,12 +239,22 @@ export const SkillsInfo = [
     },
     {
       id: 5,
-      title: "Tic-Tac-Toe-Game",
+      title: "Book-My-Show",
       description:
-        "A simple 3x3 board where players place their marks. Usually ”X” and ”O” take turns marking spaces. A player wins by getting three marks on a row, column, or diagonal. If all spaces are filled without a winner, the game ends in a tie. 3x3 Grid, Two Players, Win Conditions, Draw Condition.",
+        "The BookMyShow Clone is a full-stack web application that replicates the core functionality of the popular online movie ticket booking platform – BookMyShow. This application allows users to browse movies, view details, select show timings, and book tickets in a seamless and interactive interface.",
       image: movierecLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Tech-Lksh/Tic-tac-toe-Game",
-      webapp: "https://tech-lksh.github.io/Tic-tac-toe-Game/",
+      tags: ["React Js", "CSS", "Node js", "Express Js", "MongoDB"],
+      github: "https://github.com/Tech-Lksh/Book-My-Show-Project",
+      webapp: "https://book-my-show-project-tau.vercel.app/",
+    },
+    {
+      id: 5,
+      title: "Employee-Management-System",
+      description:
+        "The Employee Management System is a web-based application designed to streamline the interaction between administrators and employees. It provides a simple and efficient way to manage employee data and assign, track, and complete tasks.",
+      image: movierecLogo,
+      tags: ["React Js", "Tailwind CSS", "React-Router-DOM", "LocalStorage"],
+      github: "https://github.com/Tech-Lksh/Employee-Management-System",
+      webapp: "https://employee-management-system-bice-one.vercel.app/",
     },
   ];  
