@@ -43,8 +43,10 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-           Hey! I am a Passionate Software developer with expertise in React.Js, Tailwind CSS, JavaScript, C++. We are committed to crafting responsive and dynamic web applications, creating intuitive user interfaces while
-            maintaining clean and efficient code.
+           B.Tech CSE student with strong interest in frontend development using React.js and modern
+           JavaScript. Built multiple responsive web apps and deployed them to production using Vercel.
+          Currently learning backend technologies (Node.js, MongoDB) to become a full-stack developer.
+          Also solved 50+ DSA problems on LeetCode. Open to SDE/Frontend Internships.
           </p>
           {/* Resume Button */}
           <a
