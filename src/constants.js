@@ -217,7 +217,7 @@ export const SkillsInfo = [
       image: npmLogo,
       tags: ["React JS", "Tailwind CSS", "JavaScript"],
       github: "https://github.com/Tech-Lksh/Document-Manager",
-      webapp: "https://document-manager-sooty.vercel.app/",
+      webapp: "https://employee-management-system-ic8y2avle.vercel.app/",
     },
     {
       id: 3,
