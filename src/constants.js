@@ -177,15 +177,6 @@ export const SkillsInfo = [
       desc: "I completed my class 10 education from Shri Sai Parnath English High School, Nagpur, under the Maharashtra State board.",
       degree: "Maharashtra State Board",
     },
-    // {
-    //   id: 3,
-    //   img: vpsLogo,
-    //   school: "Vatsalya Public School Govardhan, Mathura",
-    //   date: "Apr 2015 - March 2016",
-    //   grade: "87.5%",
-    //   desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-    //   degree: "CBSE(X), Science with Computer Application",
-    // },
   ];
   
   export const projects = [
@@ -197,7 +188,7 @@ export const SkillsInfo = [
       image: employeemanagementsystm,
       tags: ["React Js", "Tailwind CSS", "React-Router-DOM", "LocalStorage"],
       github: "https://github.com/Tech-Lksh/Employee-Management-System",
-      webapp: "https://employee-management-system-bice-one.vercel.app/",
+      webapp: "https://employee-management-system-ic8y2avle.vercel.app/",
     },
     {
       id: 1,
